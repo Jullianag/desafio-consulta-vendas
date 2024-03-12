@@ -9,7 +9,8 @@ public class SaleMinDTO {
 	private Long id;
 	private Double amount;
 	private LocalDate date;
-	
+
+
 	public SaleMinDTO(Long id, Double amount, LocalDate date) {
 		this.id = id;
 		this.amount = amount;
